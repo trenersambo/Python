@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> произведение элементов от -N до  N</title>
+</head>
+<body>
+
+<p>
+на входе числа от -N до N. 
+Найти произведениеэлментов на указанных позициях
+</p>
+
+<script>
+ 
+//1-я ф-ция: создаем массив из рандомных чисел (диапазон чисел: -10 до +10)
+function listUser(nPlus){ // 10
+  let nMinus = -nPlus     // -10
+  let arr = []  // массив для 10 цифр (диапазон: -10 до 10)
+
+
+  for(let i=0; i <nPlus; i++){
+
+    let randNum = parseInt(Math.random()*(nPlus-nMinus)+nMinus)
+    // console.log(randNum) // 10 цифр из промежутка -10:10
+
+    arr.push(randNum); 
+
+  }
+
+    console.log(arr) // массив из 10 цифр (из промежутка -10:10  )
+    return arr ; // для передачи как аргумента
+
+}
+
+// 2-я функция: сопостоваления:
+
+function compare(arr, arrIdx){
+ // console.log(arr, arrIdx)
+   let arrValue = [] // массив для найденных по индексам значений 
+  for (let i = 0; i < arr.length; i++) {
+
+    for (let j = 0; j < arrIdx.length; j++) {
+      if(i === arrIdx[j])
+        arrValue.push(arr[i])
+
+    }
+
+  }
+    console.log(arrValue)
+    return arrValue // для передачи как аргумента
+
+}
+
+// 3-я ф-ция: найти произведение найденных значений
+function multi(compareArr){
+  accumMulti = 1;
+
+  compareArr.map(function (el){
+  //console.log(el)
+  accumMulti = accumMulti*el ;
+  })
+  console.log(accumMulti)
+
+}
+
+
+
+//listUser(10 ) 
+
+// 1. вызвал ф-цию наполнения массива 10-тью элементами, диапозон: -10 до +10  
+let newArr = listUser(10);
+
+// 2. вызвал ф-ию сравнения рандомного массива и [....](типа из файла file.txt (по ТЗ))
+let compareArr = compare(newArr, [1,2,3,4,5])
+
+// 3. вызов ф-ции получения произвдения найденных значений после сравнения
+multi( compareArr)
+
+ 
+
+
+</script>
+  
+</body>
+</html>

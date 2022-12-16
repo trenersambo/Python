@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  Сумма цифр из вещественного числа</title>
+</head>
+<body>
+
+<p>
+ 
+</p>
+
+<script>
+function floatNum(num){
+  let a = num.toString().split('') // ['6', '.', '7', '8', '2']
+  let summ = 0
+  a.map(function(el) {
+  //console.log(el)
+    if(el === '.'){
+      //console.log ('dot')
+      el=0
+    }
+
+  summ += +el
+
+  
+  })
+
+  console.log(summ)
+
+}
+ 
+
+floatNum (6.782)   //6+7+8+2 = 23
+floatNum (645)     //6+4+5 = 15
+floatNum (0.56)    //0+5+6 = 11
+</script>
+  
+</body>
+</html>

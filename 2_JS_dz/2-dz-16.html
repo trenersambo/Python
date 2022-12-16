@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Сумма чисел последовтаельности</title>
+</head>
+<body>
+
+<p>
+ на входе число N. 
+Вывести последовтаельность по заданной формуле
+</p>
+
+<script>
+function subsec(n){
+
+let accum = 0; 
+
+for(let i = 1; i<=n ; i++){
+  let expr = (1+1/i)
+  accum = accum + Math.pow(expr, i)
+  
+
+}
+
+console.log(`Для ${n} сумма последовательности = ${accum}`) ;
+
+}
+
+ 
+subsec(4); //
+
+</script>
+  
+</body>
+</html>
