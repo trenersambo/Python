@@ -5,19 +5,19 @@
 # ===== Решение =======
 
 def summ(num):                   # 1.5
-    print(num, type(num))        # 1.5 <class 'str'>
+    #print(num, type(num))        # 1.5 <class 'str'>
 
     if(',' in num):               # если в num есть ЗАПЯТАЯ
         num = num.replace(',', '')# замена ',' на пробел 1.5->15
 
     num = num.replace('.', '')   # замена '.' на пробел 1.5->15
-    print(num, type(num))        # 15 <class 'str'>
+    #print(num, type(num))        # 15 <class 'str'>
 
     lst_string = list(num)
-    print(lst_string, type(lst_string[0]))  # ['1', '5'] <class 'str'>
+    #print(lst_string, type(lst_string[0]))  # ['1', '5'] <class 'str'>
 
-    # strIntg = map(int, lst_string)
-    # print(strIntg, type(strIntg))
+        # strIntg = map(int, lst_string)
+        # print(strIntg, type(strIntg))
 
     accum = 0               # сборщик итоговых значений
 
