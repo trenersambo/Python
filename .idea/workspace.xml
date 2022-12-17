@@ -83,6 +83,7 @@
       <updated>1671274622500</updated>
       <workItem from="1671274630559" duration="82000" />
       <workItem from="1671274716936" duration="11669000" />
+      <workItem from="1671288833105" duration="285000" />
     </task>
     <servers />
   </component>
@@ -94,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -106,7 +109,7 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonGitHub$test.coverage" NAME="test Coverage Results" MODIFIED="1671277043818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$test.coverage" NAME="test Coverage Results" MODIFIED="1671289107953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_14.coverage" NAME="dz-14 Coverage Results" MODIFIED="1671285797670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
   </component>
 </project>
