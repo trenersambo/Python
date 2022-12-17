@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Перемешай массив</title>
+</head>
+<body>
+
+<p>
+Перемешать массив
+</p>
+
+<script>
+function shuffleArr(array){
+  console.log(`before: ${array}`) ;
+  let max = array.length-1 ; //найти макс для границ Рандома
+  let min = 0 ; //пусть будет 0 через переменную :)
+
+  for(let i =0; i<array.length; i++){
+
+    let idxRand = parseInt(Math.random()*(max - min)+min)// рандомный целевой индекс для перемешивания
+
+    let tmp = array[i]; // сохр.значение в tmp
+    array[i] = array[idxRand] ; // вместо значения, кот.загнал в tmp - размещаю другое (с рандомным индкесом)
+    array[idxRand] = tmp // верну из tmp - вместо изъятого
+
+  }
+
+console.log(`after: ${array}`) ; 
+
+}
+
+
+shuffleArr([1,2,3,4,5,6,7,8])
+
+</script>
+  
+</body>
+</html>
