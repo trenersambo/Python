@@ -1,4 +1,3 @@
-
 # 1. Реализуйте алгоритм задания случайных чисел
 # без использования встроенного генератора псевдослучайных чисел.
 #
@@ -20,7 +19,6 @@
 
 import time
 
-
 curr_time = time.time()
 print(curr_time)
 
@@ -28,10 +26,3 @@ rand_num = int(100 * curr_time)
 
 print(rand_num % 100)
 print(str(rand_num)[-5:])
-
-
-
-
-
-
-
