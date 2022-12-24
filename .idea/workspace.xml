@@ -42,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dz-30">
+  <component name="RunManager" selected="Python.dz-31">
     <configuration name="dz-30" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sem4-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dz-31" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,12 +73,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_seminar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4__dz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Front_Work\PythonGitHub\4_seminar\sem41.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4__dz/dz-31.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dz-31" />
         <item itemvalue="Python.dz-30" />
         <item itemvalue="Python.sem4-3" />
         <item itemvalue="Python.sem4-2" />
         <item itemvalue="Python.test_def" />
-        <item itemvalue="Python.sem4-1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,8 @@
       <workItem from="1671549429644" duration="539000" />
       <workItem from="1671551661756" duration="10115000" />
       <workItem from="1671723536592" duration="12606000" />
-      <workItem from="1671813326050" duration="7176000" />
+      <workItem from="1671813326050" duration="8576000" />
+      <workItem from="1671888117007" duration="9716000" />
     </task>
     <servers />
   </component>
@@ -215,6 +216,7 @@
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_18_shuffle.coverage" NAME="dz-18-shuffle Coverage Results" MODIFIED="1671361444297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_18_v002.coverage" NAME="dz-18-v002 Coverage Results" MODIFIED="1671465364630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$sem4_1.coverage" NAME="sem4-1 Coverage Results" MODIFIED="1671731608747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_seminar" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$dz_31.coverage" NAME="dz-31 Coverage Results" MODIFIED="1671900152290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4__dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_16.coverage" NAME="dz-16 Coverage Results" MODIFIED="1671478154066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_17_toFileTxt.coverage" NAME="dz-17-toFileTxt Coverage Results" MODIFIED="1671479675926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_15.coverage" NAME="dz-15 Coverage Results" MODIFIED="1671295062411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />

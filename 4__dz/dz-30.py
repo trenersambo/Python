@@ -1,5 +1,7 @@
+# вычислить число с точностью d
+
 import math #импорт модуля МАТЕМАТИКА
-from decimal import Decimal #импорт модуля .... 
+from decimal import Decimal #импорт модуля ....
 
 # №1. конвертация ввода в input() в вид "1.000...."
 def calcLevel(d):
