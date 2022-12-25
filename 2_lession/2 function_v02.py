@@ -13,11 +13,10 @@
 
 def unlim_Args(*params):
 
-    res: str = '' # явное сообщение типа
+    res: str = '' # (не обязательно) явное сообщение типа
 
     for i in params:
         res += i
-
     print(res)     # sambo best sport
 
 # вызов ф-ции:
