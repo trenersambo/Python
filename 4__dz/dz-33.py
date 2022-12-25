@@ -17,16 +17,40 @@ def randomList(k):
 
     arr = [] # сборщик значений коэфф-ов мн.члена
 
-    for i in range(0, k):
+    for i in range(0, k+1):
         rnd_el = random.randint(0,101)
         #print(rnd_el)
         arr.append(rnd_el)
-    print(arr)
+    #print(f'Список коэфф-ов: {arr}')
 
     return arr  #Массив списка коэфф-ов многочлена
 
+
+
 # 2. Ф-ция генерации многочлена степени k
 def polynomial(valueArr):
+
+    #print(f'Список коэфф-ов: {valueArr}')
+
+    acc = ''
+
+    for i in valueArr:
+          idx = valueArr.index(i) # ИНДЕКС каждого значения из массива
+          #print(idx+1)            # степени для (5): 1 2 3 4 5
+
+          # создаю формулу многочлена
+          acc += (f'{i}*{"x"}**{idx}')
+
+          # ставлю знак "+" между значениями по условию (иначе лишний плюс будет)
+          if idx < len(valueArr)-1:
+              acc +=' + '
+
+
+
+    acc += " = 0"
+    print( acc)
+
+
 
 
 
