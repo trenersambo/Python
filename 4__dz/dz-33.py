@@ -47,15 +47,22 @@ def polynomial(valueArr):
 
 
 
-    acc += " = 0"
-    print( acc)
+    acc = " 0 = " + acc # пропись НУЛЯ  для мн/члена (подхитрил)
+    print( acc)   # вывод на экран
+    return acc
 
-
-
+# 3. Запись в файл dz33.txt
+def createFile(valuePoly):
+    with open('dz33.txt', 'a') as poly: # as = алиас(синоним)
+        poly.write(valuePoly) # запись в файл созданного мн.члена
+        poly.write('\n')      # разделительный пробел
 
 
 k = int(input('укажи степень многочлена : '))
 
 valueArr = randomList(k)
 
-polynomial(valueArr)
+valuePoly = polynomial(valueArr)
+
+createFile(valuePoly)
+
