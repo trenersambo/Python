@@ -34,3 +34,10 @@ print(t[2])      # blue
 # print(t[10])   # IndexError: tuple index out of range
 print(t[-2])     # green
 # print(t[-200]) # IndexError: tuple index out of range
+
+
+# ===== Распаковка кортежей в отдельные переменные ======
+
+t = tuple(['frontend', 'python', 'JS'])       # создана переменная
+front, py, js = t                             # распаковка
+print('1:{} 2:{} 3:{}'.format(front, py, js)) # r:red g:green b:blue
