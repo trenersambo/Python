@@ -56,7 +56,6 @@ def makeDict(poly_list):
         if item.isdigit():
             poly_dict[0] = int(item)
         # в противном случае парсим элемент списка на степень и коэффициент и пихаем их в словарь
-        # (я замучался дебажить эту строку, чтобы получилось правильно) )
         else:
             poly_dict[int(item.split("**")[-1])] = int(item[0:item.find("*")])
     return poly_dict
@@ -83,9 +82,6 @@ def main():
     # преобразовываем списки в словари
     poly_dict1 = makeDict(parse_poly(poly1))
     poly_dict2 = makeDict(parse_poly(poly2))
-
-    # print(poly_dict1)
-    # print(poly_dict2)
 
     print("Парсим сумму полиномов в словарь:", sum_dict(poly_dict1, poly_dict2))
 
