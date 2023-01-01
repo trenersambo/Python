@@ -324,26 +324,109 @@
 # Напишите программу, которая считывает три числа
 # и подсчитывает сумму только положительных чисел.
 
-def addCalc(a,b,c):
+# def addCalc(a,b,c):
+#
+#     arr = [a,b,c]
+#
+#     acc_sum = []
+#
+#     for i in arr:
+#         if i<0:
+#             i=0
+#         acc_sum.append(i)
+#
+#     summ = sum(acc_sum)
+#     print(summ)
+#
+#
+#
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# addCalc(a,b,c)
 
-    arr = [a,b,c]
 
-    acc_sum = []
+# ===========================
 
-    for i in arr:
-        if i<0:
-            i=0
-        acc_sum.append(i)
+# 4.2 Логические операции
 
-    summ = sum(acc_sum)
-    print(summ)
+# 2 == 2 or 4 > 2     True    (True or True)
+# 6 <= 6 and 2 > 3    False   (True and False)
+# 1 != 4 and 6 != 3   True    (True and True)
+# 2 >= -1 or 2 <= 4   True    (True or True)
+# not (2 > 2)         True    not (False)
+# not (6 <= 10)       False   not (True)
+
+
+# Что будет выведено на экран в результате выполнения следующей программы?
+
+# num1 = 34
+# num2 = 81
+# if num1 // 9 == 0 or num2 % 9 == 0:
+#     print('число', num1, 'выиграло')
+# else:
+#     print('число', num2, 'выиграло')
+
+
+#Задача 4.2.1
+
+# Напишите программу, которая принимает целое число xx и
+# определяет, принадлежит ли данное число указанному промежутку (-1, 17).
+
+# мой вариант 1:
+
+# dot = int(input())
+#
+# if -1 < dot < 17:
+#     print('Принадлежит')
+# else:
+#     print('Не принадлежит')
+
+# мой вариант 2 COUNT:
+
+# def compare(dot):
+#     gapArr = list(range(-0,17))
+#
+#     if gapArr.count(dot):
+#         print('Принадлежит')
+#     else:
+#         print('Не принадлежит')
+#
+# dot = int(input())
+# compare(dot)
+
+#
+# мой вариант 3 ANY
+
+# def compare(dot):
+#     gapArr = list(range(0,17))
+#
+#     # если есть такой el который == введенному значению dot
+#     res = any( el==dot for el in gapArr)
+#
+#     print('Принадлежит' if res==True else 'Не принадлежит')
+#
+# dot = int(input())
+# compare(dot)
+
+# ******
+
+# вариант 2
+# print(('Не п', 'П')[-1 < int(input()) < 17] + 'ринадлежит')
+#
+# вариант 3
+# print('Принадлежит' if -1 < int(input()) < 17 else 'Не принадлежит')
+
+# вариант 4
+# print('Принадлежит' if int(input()) in range(0, 17) else 'Не принадлежит')
+
+# ******
 
 
 
-a = int(input())
-b = int(input())
-c = int(input())
 
-addCalc(a,b,c)
+
+
 
 
