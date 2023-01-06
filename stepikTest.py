@@ -1435,10 +1435,69 @@
 
 # =============================
 
-# задача 1,2 из темы 6.2.
+# задача 1,2,3 из темы 6.2.
 #print(f'"Python is a great language!", said Fred. "I don\'t ever remember having this much fun before."')
 
 # arr = [str(input()) for _ in range (2)]
 # print(f'Hello {arr[0]} {arr[1]}! You just delved into Python')
+
+# a = input()
+# print(f'Футбольная команда {a} имеет длину {len(a)} символов')
+
+
+# =============================
+
+# задача 4 из темы 6.2.
+
+# def longName(city):
+#
+#     # собираю длины всех городов (а вдруг их тысячи)
+#     arrLen = []
+#     for i in city:
+#         arrLen.append(len(i))
+#     #print(arrLen)
+#
+#
+#     for i,el in enumerate(city):
+#
+#         # сверка длины Города с макс/мин. знач-ем
+#
+#         if len(el) == min(arrLen):
+#             minEl = el
+#         elif len(el) == max(arrLen):
+#             maxEl = el
+#
+#     print(f'{minEl}\n{maxEl}')
+#
+# # беру данные от ввода
+# city = [str(input()) for _ in range (3)]
+# # вызов ф-ции
+# longName(city)
+
+# ====== задача 4 из темы 6.2. (через key) ==========
+
+# a, b, c = input(), input(), input()
+# print(min(a, b, c, key=len),max(a, b, c, key=len), sep='\n')
+
+# =============================
+
+# задача 5 из темы 6.2.
+# Арифметические строки
+# Вводятся 3 строки в случайном порядке. Напишите программу, которая выясняет
+# можно ли из длин этих строк построить возрастающую арифметическую прогрессию.
+
+# def arifm(a, b, c):
+#     a1 = len(a)
+#     b1 = len(b)
+#     c1 = len(c)
+#
+#     if (2*a1-b1-c1)*(2*b1-c1-a1)*(2*c1-b1-a1) == 0:
+#         print('YES')
+#     else:
+#         print('NO')
+#
+#
+# a, b, c = input(), input(), input()
+# arifm(a, b, c)
 
 
