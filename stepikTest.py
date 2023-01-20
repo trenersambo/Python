@@ -3653,22 +3653,22 @@
 # 192 = 1+9+2 = 12 = 1+2 = 3
 # 26 = 2+6 = 8
 
-def digital_num(num_arr):
-   #print(num_arr, len(num_arr))
-
-   while len(num_arr) > 1:
-
-       summ = str(sum(num_arr))
-
-       # list(map(int,summ)) - строка -> в массив
-       # на лету изменяю массив на значения int из summ
-       num_arr = list(map(int, summ))
-
-   print(num_arr[0])
-
-
-num_arr = list(map(int, input()))
-digital_num(num_arr)
+# def digital_num(num_arr):
+#    #print(num_arr, len(num_arr))
+#
+#    while len(num_arr) > 1:
+#
+#        summ = str(sum(num_arr))
+#
+#        # list(map(int,summ)) - строка -> в массив
+#        # на лету изменяю массив на значения int из summ
+#        num_arr = list(map(int, summ))
+#
+#    print(num_arr[0])
+#
+#
+# num_arr = list(map(int, input()))
+# digital_num(num_arr)
 
 
 
