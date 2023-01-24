@@ -10,7 +10,7 @@ def tempr_view(sensor):
     data = prov.get_tempr(sensor)
 
     # логирование данных о Температуре
-    log.tempr_logger(data)
+     log.tempr_logger(data)
 
     return data
 
