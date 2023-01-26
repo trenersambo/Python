@@ -43,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stepikTest">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,6 +66,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonGitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8__dz_DBSchool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8__dz_DBSchool/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,28 +102,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_seminar_DB_Student/school/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonGitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_seminar_DB_Student/school" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_seminar_DB_Student/school/model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.stepikTest" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.controller" />
         <item itemvalue="Python.view (1)" />
-        <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +202,7 @@
       <workItem from="1674574836276" duration="5181000" />
       <workItem from="1674584564810" duration="1969000" />
       <workItem from="1674665769121" duration="2978000" />
-      <workItem from="1674746730738" duration="3485000" />
+      <workItem from="1674746730738" duration="3575000" />
     </task>
     <servers />
   </component>
@@ -241,7 +241,7 @@
     <SUITE FILE_PATH="coverage/PythonGitHub$2_function_v01.coverage" NAME="2 function_v01 Coverage Results" MODIFIED="1671966493833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
     <SUITE FILE_PATH="coverage/PythonGitHub$4_tuple_001.coverage" NAME="4-tuple-001 Coverage Results" MODIFIED="1671973289955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
     <SUITE FILE_PATH="coverage/PythonGitHub$1_file.coverage" NAME="1-file Coverage Results" MODIFIED="1671965224351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
-    <SUITE FILE_PATH="coverage/PythonGitHub$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1674383033648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_lession/meteo" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1674756017338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8__dz_DBSchool" />
     <SUITE FILE_PATH="coverage/PythonGitHub$view.coverage" NAME="view Coverage Results" MODIFIED="1674580091541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7__dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$s3.coverage" NAME="s3 Coverage Results" MODIFIED="1671477423427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_seminar" />
     <SUITE FILE_PATH="coverage/PythonGitHub$test_def.coverage" NAME="test_def Coverage Results" MODIFIED="1671732875841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_seminar" />

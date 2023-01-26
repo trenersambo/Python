@@ -67,7 +67,7 @@ def control_knowledge():
     """Контроль знаний ученика"""
     lesson = view.get_lesson()
     if model.check_lesson(model.get_journal(), lesson):
-        view.show_message('Кто будет отвечать?')
+        view.show_message('Кто идет к доске?')
         name = view.get_name()
         if model.check_name(model.get_journal(), name):
             mark = view.control()
