@@ -203,7 +203,7 @@
       <workItem from="1674584564810" duration="1969000" />
       <workItem from="1674665769121" duration="2978000" />
       <workItem from="1674746730738" duration="8529000" />
-      <workItem from="1674832988864" duration="26655000" />
+      <workItem from="1674832988864" duration="32423000" />
     </task>
     <servers />
   </component>
@@ -275,7 +275,7 @@
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_15.coverage" NAME="dz-15 Coverage Results" MODIFIED="1671295062411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$3dz_25.coverage" NAME="3dz-25 Coverage Results" MODIFIED="1671554122070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$6_set_02.coverage" NAME="6-set-02 Coverage Results" MODIFIED="1671977735900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
-    <SUITE FILE_PATH="coverage/PythonGitHub$stepikTest.coverage" NAME="stepikTest Coverage Results" MODIFIED="1674937569492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$stepikTest.coverage" NAME="stepikTest Coverage Results" MODIFIED="1674990133699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonGitHub$sem4_2.coverage" NAME="sem4-2 Coverage Results" MODIFIED="1671734406664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_seminar" />
   </component>
 </project>

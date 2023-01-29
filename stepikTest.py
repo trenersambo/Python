@@ -5388,28 +5388,160 @@
 
 # вариант 1
 
-def caesar(num, st):
-     accumSt = ''
+# def caesar(num, st):
+#      accumSt = ''
+#
+#      for i in st:
+#          iEl = -num + ord(i)  # -1 + 98
+#
+#          # проверка диапазона iEl (д.б. между 97 'a'... 122 'z')
+#          if 97 <= iEl <= 122:
+#              accumSt += chr(iEl)  # 98 это a
+#
+#          # иначе: расчет сколько уже сминусил до 97, чтоб остаток начать минусить от 122
+#          else:
+#              reNum = num - (ord(i) - 96)
+#              iEl = -reNum + ord('z')
+#              accumSt += chr(iEl)
+#
+#      print(accumSt)
+#
+#
+# num = int(input())
+# st = input()
+#
+# caesar(num, st)
 
-     for i in st:
-         iEl = -num + ord(i)  # -1 + 98
 
-         # проверка диапазона iEl (д.б. между 97 'a'... 122 'z')
-         if 97 <= iEl <= 122:
-             accumSt += chr(iEl)  # 98 это a
+# Экзамен
 
-         # иначе: расчет сколько уже сминусил до 97, чтоб остаток начать минусить от 122
-         else:
-             reNum = num - (ord(i) - 96)
-             iEl = -reNum + ord('z')
-             accumSt += chr(iEl)
+# Задача 7:
+ # Каждый третий
+ # # На вход программе подается строка текста.
+ # #  Напишите программу, которая удаляет из нее все символы
+ # #  с индексами кратными 3, то есть символы с индексами 0, 3, 6, ....
+ # #
+ # #  Пример:
+ # # Python ---> yton
+ # # Hello  ---> elo
 
-     print(accumSt)
+# st = input()
+# newSt=''
+# for i, el in enumerate(st):
+#
+#     if i % 3 != 0:
+#         newSt +=el
+#
+# print(newSt)
 
 
-num = int(input())
-st = input()
+# Задача 8:
+# Замени меня полностью
+# На вход программе подается строка текста.
+#  Напишите программу, которая заменяет все вхождения цифры 1 на слово «one».
 
-caesar(num, st)
+# text = input()
+#
+# newText = text.replace('1', 'one')
+# print(newText)
+
+
+# Задача 9:
+# Удали меня полностью
+# На вход программе подается строка текста.
+#  Напишите программу, которая удаляет все вхождения символа «@».
+
+# st = input()
+# newSt=''
+#
+# for i, el in enumerate(st):
+#
+#     if el !='@':
+#         newSt +=el
+#
+# print(newSt)
+
+# Задача 10:
+# Второе вхождение
+# На вход программе подается строка текста.
+# Напишите программу, которая выводит индекс второго вхождения буквы «f».
+# Если буква «f» встречается только один раз, выведите число -1,
+# а если не встречается ни разу, выведите число -2.
+
+# text = input()
+#
+# count = 0
+#
+# for i, el in enumerate(text):
+#
+#     if el == 'f':
+#         count +=1
+#         if count == 2:
+#             print(i)
+#             break
+#
+# if count == 1:
+#     print('-1')
+# elif count == 0:
+#     print('-2')
+
+
+# Иное решение 1:
+
+# s = input()
+# if 'f' not in s:
+#     print('-2')
+# else:
+#     print(s.find('f', s.find('f')+1))
+
+# Иное решение 2:
+
+# s = input()
+# print(s.replace('f', ' ', 1).find('f') if 'f' in s else '-2')
+
+
+# Задача 11:
+
+# Переворот
+# На вход программе подается строка текста в которой буква «h» встречается как минимум два раза.
+# Напишите программу, которая возвращает исходную строку и переворачивает последовательность символов,
+#  заключенную между первым и последним вхождением буквы «h».
+
+
+# Пример:
+
+# abch12345h ---> abch54321h
+# In the hole in the ground there lived a hobbit	---> In th a devil ereht dnuorg eht ni eloh ehobbit
+
+txt = input()
+
+lEl = txt.find('h')
+rEl = txt.rfind('h')
+
+oldEl = txt[lEl+1:rEl]
+newEl = txt[rEl-1:lEl:-1]
+
+
+t = txt.replace(oldEl,newEl)
+print(t)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
