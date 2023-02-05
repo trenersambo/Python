@@ -6839,7 +6839,7 @@
 
 
 
-# Экзаменационные задачи на Списки
+# Экзаменационные задачи на Списки (05/02/2023, воскр.)
 
 #~~~~~~ Задача 1 ~~~~~~~~~~~
 
@@ -6852,6 +6852,16 @@
 #     if i%2==0:
 #         arr.append(i)
 # print(arr)
+
+# ver 02 Вариант решения ( прорешивание после экзамена)
+
+# arr = []
+# for i in range(1, int(input())+1):
+#     arr.append(i)
+# print(arr[1::2])
+
+
+
 
 #~~~~~~ Задача 2 ~~~~~~~~~~~
 
@@ -6933,48 +6943,74 @@
 # 8-301-447-5820  NO
 # 77-301-447-5820 NO
 
-# ввод Номера:
-num = input()
+# # ввод Номера:
+# num = input()
+#
+# # преобразовать (split) в Список / массив
+# arrNum = num.split('-')
+# #print(arrNum)
+# # print(arrNum[0], arrNum[1])
+#
+# joinNum = ''.join(arrNum)
+# #print(joinNum, len(joinNum))
+#
+#
+#
+# #print(joinNum.isdigit()) # False если если есть буквы
+#
+# for i, el in enumerate(arrNum):
+#
+#     # не д.б. наличие букв
+#     if joinNum.isdigit() !=True:
+#         print('NO')
+#         exit()
+#
+#     # кол-во цифр д.б. 10...11
+#     if len(joinNum) < 10 or len(joinNum) > 11:
+#         print('NO')
+#         exit()
+#
+#     if len(el[0]) > 3:
+#         print('NO')
+#         exit()
+#
+#     if  el[0] == '8':
+#         print('NO')
+#         exit()
+#
+#
+#
+#
+# if (len(arrNum[0])==1 or len(arrNum[0])==3) and len(arrNum[1])==3 and (len(arrNum[2])==3 or len(arrNum[2])==4):
+#     print('YES')
+# else:
+#     print('NO')
 
-# преобразовать (split) в Список / массив
-arrNum = num.split('-')
-#print(arrNum)
-# print(arrNum[0], arrNum[1])
-
-joinNum = ''.join(arrNum)
-#print(joinNum, len(joinNum))
 
 
-
-#print(joinNum.isdigit()) # False если если есть буквы
-
-for i, el in enumerate(arrNum):
-
-    # не д.б. наличие букв
-    if joinNum.isdigit() !=True:
-        print('NO')
-        exit()
-
-    # кол-во цифр д.б. 10...11
-    if len(joinNum) < 10 or len(joinNum) > 11:
-        print('NO')
-        exit()
-
-    if len(el[0]) > 3:
-        print('NO')
-        exit()
-
-    if  el[0] == '8':
-        print('NO')
-        exit()
+# Не мое решение -1  (через RegExp):
+# import re
+# n = input()
+# reg = re.search(r"^[7]?-?\d{3}-\d{3}-\d{4}",n)
+# if reg:
+#     print("YES")
+# else:
+#     print("NO")
 
 
 
+# Не мое решение -2  (через RegExp):
 
-if (len(arrNum[0])==1 or len(arrNum[0])==3) and len(arrNum[1])==3 and (len(arrNum[2])==3 or len(arrNum[2])==4):
-    print('YES')
-else:
-    print('NO')
+# import re
+# s = input()
+# if re.fullmatch(r'\d{3}-\d{3}-\d{4}', s) or re.fullmatch(r'7-\d{3}-\d{3}-\d{4}', s):
+#     print('YES')
+# else:
+#     print('NO')
+
+
+# прорешивание после экзмена
+
 
 
 
@@ -7030,4 +7066,176 @@ else:
 #
 # print(text )
 
+
+
+
+# ======================================================
+# ===== Тема № 13.1 ФУНКЦИИ без параметров ===============
+# ======================================================
+
+
+
+# Звездный прямоугольник 1
+# Напишите функцию draw_box(), которая выводит звездный прямоугольник
+#  с размерами 14×10 в соответствии с образцом:
+#
+# **********
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# *        *
+# **********
+
+# def drawB(w,h):
+#
+#     for i in range(h):
+#         if i == 0 or i == 13:
+#             print('*'*10)
+#         else:
+#             print('*'+' '*(w-2)+'*')
+#
+# w = 10
+# h = 14
+# drawB(w,h)
+
+
+
+#~~~~~~ Задача 2 Тема № 13.1 ФУНКЦИИ ~~~~~~~~~~~
+
+# Звездный треугольник 1
+# Напишите функцию draw_triangle(), которая выводит
+#  звездный прямоугольный треугольник с катетами, равными 10 в соответствии с образцом:
+
+# *              |
+# **             |
+# ***            |
+# ****           |
+# *****          |
+# ******         |
+# *******        |
+# ********       |
+# *********      H=10
+# **********     |__________w=10______
+
+# def drTri(w,h):
+#
+#     for i in range(1,h+1):
+#         #print(i) от 1 до ... 10
+#         print('*'*i)
+#
+# w = 10
+# h = 10
+#
+# drTri(w,h)
+
+
+
+
+# 80% курса
+# ======================================================
+# ===== Тема № 13.2 ФУНКЦИИ c параметрами  ===============
+# ======================================================
+
+# Что покажет программа ? (работа в классе)
+
+#  =========== работа в классе 1
+
+# def print_number(a, b, c):
+#     d = (a + c) // b
+#     print(d)
+#
+# print_number(2, 3, 11)
+
+
+
+#  =========== работа в классе 2
+
+# def change_us(a, b):
+#     a = 0
+#     b = 0
+#     print(a, b)
+#
+# x = 1
+# y = 7
+# print(x, y)
+# change_us(x, y)
+# print(x, y)
+#
+#
+# Ответ:
+# 1 7
+# 0 0
+# 1 7
+
+
+
+#  =========== работа в классе 3
+
+# def print_text(text, num):
+#     while num > 0:
+#         print(text, end='')
+#         num -= 1
+#
+# print_text('Python', 4)
+#
+# Ответ:
+# PythonPythonPythonPython
+
+
+# ~~~~~~~~~~~~  Задача № 1 ~~~~~~~~~~~~~
+
+# Звездный треугольник
+# Напишите функцию draw_triangle(fill, base), которая принимает два параметра:
+#
+# fill – символ заполнитель;
+# base – величина основания равнобедренного треугольника;
+# а затем выводит его.
+
+# Пример:
+#
+# *
+# **
+# ***
+# ****
+# *****
+# ****
+# ***
+# **
+# *
+
+
+# (код вроде  из строки 3895)
+
+# def starTringle(sym, n):
+#
+#     for i in range(1, n + 1):
+#         print(f'{sym}' * min(i, n - i + 1))
+#
+#
+# sym = input()
+# n = int(input())
+#
+# starTringle(sym, n)
+
+# Вариант решения 1
+
+# # объявление функции
+# def draw_triangle(fill: str, base: int):
+#     for i in range(base):
+#         print(fill*(min(i + 1, base - i)))
+#
+# # считываем данные
+# fill = input()
+# base = int(input())
+#
+# # вызываем функцию
+# draw_triangle(fill, base)
 
