@@ -36,8 +36,8 @@ def languae(text):
 
 # 2. Со списком(массивом) какого языка будем работать
 def baseAlphabet(lang):
-    ru = ['абвгдежзийклмнопрстуфхцчшщъыьэюя', 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ']
-    en = ['abcdefghijklmnopqrstuvwxyz' , 'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
+    ru = ['абвгдежзийклмнопрстуфхцчшщъыьэюя', 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ', 32]
+    en = ['abcdefghijklmnopqrstuvwxyz' , 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 26 ]
 
     if lang == 'ru':
         return ru
@@ -47,18 +47,35 @@ def baseAlphabet(lang):
 # 3. ДЕШИФРУЕМ: decrypt()
 def decrypt(text, alphArr):
 
-    step = int(print('Шаг сдвига(вправо) >>> '))
+    low, upp, power = alphArr
+    #print(low, upp, power )
+
+    step = int(input('Шаг сдвига(дешифруем: влево) >>> '))
 
     newTxt = ''
 
-    for i in text:
-        if i.isalpha()
+    for i in range(len(text)):
+
+        if text[i].isalpha():
+            if text[i].islower():
+                print(f'{text[i]}, индекс: {i} --> (True) мал.буква до сдвига')
+                lowIdx = str(low).find(text[i])
+                print(f' в малом алфавите индекс буквы {text[i]}: {lowIdx}')
+
+
+            elif text[i].isupper():
+                print(f'{text[i]}, индекс: {i} --> (True) бол.буква до сдвига')
+
+
+        else:
+            newTxt += text[i]
 
 
 
 # 3.1. ШИФРУЕМ: crypt()
 def crypt(text, alphArr):
     pass
+    step = int(input('Шаг сдвига(шифруем: вправо) >>> '))
     #print('Шифруем', text, alphArr)
 
     #step = int(print('Шаг сдвига(вправо) >>> '))
