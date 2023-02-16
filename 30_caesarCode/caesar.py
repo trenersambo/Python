@@ -34,7 +34,7 @@ def languae(text):
     return lang
 
 
-# Со списком(массивом) какого языка будем работать
+# 2. Со списком(массивом) какого языка будем работать
 def baseAlphabet(lang):
     ru = ['абвгдежзийклмнопрстуфхцчшщъыьэюя', 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ']
     en = ['abcdefghijklmnopqrstuvwxyz' , 'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
@@ -44,15 +44,25 @@ def baseAlphabet(lang):
     if lang == 'en':
         return en
 
+# 3. ДЕШИФРУЕМ: decrypt()
+def decrypt(text, alphArr):
+
+    step = int(print('Шаг сдвига(вправо) >>> '))
+
+    newTxt = ''
+
+    for i in text:
+        if i.isalpha()
 
 
 
+# 3.1. ШИФРУЕМ: crypt()
+def crypt(text, alphArr):
+    pass
+    #print('Шифруем', text, alphArr)
 
-    # code = input('\nДля шифрования введи 1\n'
-    #             'Для дешифровки введи 2\n >> ввод >>  ')
+    #step = int(print('Шаг сдвига(вправо) >>> '))
 
-    # step = input('\nУкажи шаг сдвига (вправо)\n'
-    #              '>> ввод >>  ')
 
 
 
@@ -66,10 +76,10 @@ lang = languae(text)
 # 2. Алфавитная база (Ru or En), через base возвр. cписок [алфавит, АЛФАВИТ]
 alphArr = baseAlphabet(lang)
 
-#3. Что делаем - ШИФРУЕМ: decrypt()  или ДЕШИФРУЕМ: crypt()
+#3. Что делаем - ДЕШИФРУЕМ: decrypt()  или ШИФРУЕМ: crypt()
 dataCode = input('1 - ДЕшифруем текст, 2 -  Шифруем текст >>>  ')
 if dataCode == '1':
-    (text, alphArr)
+    decrypt(text, alphArr)
 if dataCode == '2':
     crypt(text, alphArr)
 
