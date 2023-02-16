@@ -58,18 +58,25 @@ def decrypt(text, alphArr):
 
         if text[i].isalpha():
             if text[i].islower():
-                print(f'{text[i]}, индекс: {i} --> (True) мал.буква до сдвига')
+                print(f'\n{text[i]}, индекс: {i} --> (True) мал.буква до сдвига')
                 lowIdx = str(low).find(text[i])
                 print(f' в малом алфавите индекс буквы {text[i]}: {lowIdx}')
-
+                lowEl = ( low[(lowIdx- step) % power])
+                print(f'буква после сдвига влево: {lowEl}')
+                newTxt +=lowEl
 
             elif text[i].isupper():
-                print(f'{text[i]}, индекс: {i} --> (True) бол.буква до сдвига')
-
+                print(f'\n{text[i]}, индекс: {i} --> (True) бол.буква до сдвига')
+                uppIdx = str(upp).find(text[i])
+                print(f' в Большом алфавите индекс буквы {text[i]}: {uppIdx}')
+                uppEl = (upp[(uppIdx - step) % power])
+                print(f'буква после сдвига влево: {uppEl}')
+                newTxt += uppEl
 
         else:
             newTxt += text[i]
 
+    print(newTxt)
 
 
 # 3.1. ШИФРУЕМ: crypt()
