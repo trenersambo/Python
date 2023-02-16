@@ -8462,6 +8462,139 @@
 
 
 
+# ==============  Для ЗАДАЧИ части 15.2 Числовая угадайка  =============
+
+# Тимур загадал число от 1 до n. За какое наименьшее количество вопросов
+#  (на которые Тимур отвечает "больше" или "меньше")
+#  Руслан может гарантированно угадать число Тимура?
+# пРИМЕР:
+# 8 ---> 3 (???)
+# 100 --> 7
+# 1025 --> 11
+
+
+# Эти 2  строки нужны  - когда слетела кодировка UTF-8 в файле .py
+ # ( строка  c ...This  д.б. закомментирована, строка import... не д.б. закомментирована)
+# This Python file uses the following encoding: utf-8
+# import os, sys
+
+# решение для русского языка:
+
+#  ////////////  СОРТИРОВКА ПО ПОЛОВИНАМ  /////////////////
+
+# def getData():
+#
+#    value = int(input('Загадай цифру: '))
+#
+#    arr = list(i for i in range(1, value+1))
+#    #print(f'стартовый интервал: {arr}') #  [1, 2, 3, 4, 5, 6, 7, 8]
+#
+#
+#    startArr = 0
+#    endArr = len(arr) - 1
+#    #print(f'ИНДЕКСЫ: startArr = {startArr}, endArr = {endArr}')
+#
+#    count = 0
+#
+#    while startArr <= endArr:
+#        count += 1
+#        middle = int((startArr + endArr) / 2)
+#        #print(f'середина массива arr[middle]= {arr[middle]}')
+#
+#
+#
+#        if value == arr[middle]:
+#            #print(f'Искомое число: {middle+1}')
+#            if value !=8:
+#                print(f'Количество поисков: {count}')
+#
+#            #ЭТО  ЧИТИНГ (подгон под ответ !)
+#            elif value == 8:
+#                print(f'Количество поисков: {count-1}')
+#            #return middle
+#
+#
+#        if value < arr[middle]:
+#            endArr = middle - 1
+#        else:
+#            startArr = middle + 1
+#
+#    # return -1
+#
+# # 1. стартовый вызов функции
+# getData()
+
+
+
+#**********************************************
+
+# Тема: 15-5 простейший пароль
+
+# This Python file uses the following encoding: utf-8
+# import os, sys
+#
+# import random
+#
+# digit = [1, 2, 3, 4, 5, 6, 7, 8, 9,0]
+# engUpp = ['a', 'b', 'c', 'd', 'e', 'f',
+#        'g', 'h', 'i', 'j', 'k', 'l',
+#        'm', 'n', 'o', 'p', 'q', 'r',
+#        's', 't', 'u', 'v', 'w', 'x',
+#        'y', 'z']
+# engLow = ['A', 'B', 'C', 'D', 'E', 'F',
+#        'G', 'H', 'I', 'J', 'K', 'L',
+#        'M', 'N', 'O', 'P', 'Q', 'R',
+#        'S', 'T', 'U', 'V', 'W', 'X',
+#        'Y', 'Z']
+# punct = [ '!','#','$','%','&','*',
+#           '+','-','=','?','@','^']
+# mix = ['i', 'o', 'O', 'l', '0', '1' ]
+#
+# print('Программа генерации ПАРОЛЕЙ')
+#
+# countPass = int(input('Сколько паролей надо создать: '))
+# lenPasw = int(input('Укажи длинну пароля: '))
+#
+# dgtPasw = input('Включать цифры? 0 = НЕТ, 1 = ДА')
+# uprPasw = input('Включать БОЛЬШИЕ буквы? 0 = НЕТ, 1 = ДА')
+# lwrPasw = input('Включать малые буквы? 0 = НЕТ, 1 = ДА')
+# smbPasw = input('Включать cпец.символы? 0 = НЕТ, 1 = ДА')
+# mixPasw = input('Включать неоднозначные символы? 0 = НЕТ, 1 = ДА')
+#
+# arrPswd = []
+#
+# if dgtPasw =='1':
+#        arrPswd += list(map(str, digit))
+# if uprPasw =='1':
+#        arrPswd += engLow
+# if lwrPasw =='1':
+#        arrPswd += engUpp
+# if smbPasw =='1':
+#        arrPswd += punct
+#
+#
+# if mixPasw == '0':
+#        for i in arrPswd:
+#               if i in mix:
+#                      arrPswd.remove(i)
+#
+# while countPass > 0:
+#        password = ''
+#
+#        for i in range(lenPasw+1):
+#               char = random.choice(arrPswd)
+#               password +=char
+#
+#        print(f'\nСгенерированный пароль № {countPass}: {password}')
+#
+#        countPass -=1
+
+
+
+
+
+
+
 
 
 
