@@ -36,11 +36,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/9__dz_Bot" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Front_Work\PythonGitHub\30_caesarCode" />
       <recent name="D:\Front_Work\PythonGitHub\2_lession" />
       <recent name="D:\Front_Work\PythonGitHub\2_dz" />
     </key>
@@ -57,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.caesar">
+  <component name="RunManager" selected="Python.stepikTest">
     <configuration name="caesar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +73,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_caesarCode/caesar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="caesar_ver003" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonGitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/30_caesarCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_caesarCode/caesar_ver003.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,28 +125,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonGitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_seminar/6_sem_Stone17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_seminar/6_sem_Stone17/task1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="task2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testDelete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +155,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/30_caesarCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testDelete.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_caesarCode/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.caesar" />
-        <item itemvalue="Python.task2 (1)" />
-        <item itemvalue="Python.task1 (1)" />
-        <item itemvalue="Python.testDelete" />
         <item itemvalue="Python.stepikTest" />
+        <item itemvalue="Python.caesar_ver003" />
+        <item itemvalue="Python.caesar" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.task2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +232,22 @@
       <workItem from="1676301913425" duration="10524000" />
       <workItem from="1676392157792" duration="597000" />
       <workItem from="1676475129313" duration="2540000" />
-      <workItem from="1676561273170" duration="13413000" />
+      <workItem from="1676561273170" duration="13941000" />
+      <workItem from="1676648413052" duration="17070000" />
+      <workItem from="1676815248004" duration="2970000" />
+      <workItem from="1676907575719" duration="1955000" />
+      <workItem from="1676913935944" duration="787000" />
+      <workItem from="1676914776904" duration="188000" />
+      <workItem from="1676915030164" duration="660000" />
+      <workItem from="1676915810008" duration="192000" />
+      <workItem from="1676916047983" duration="57000" />
+      <workItem from="1676916143630" duration="815000" />
+      <workItem from="1676917368490" duration="903000" />
+      <workItem from="1676920623204" duration="103000" />
+      <workItem from="1676924599322" duration="488000" />
+      <workItem from="1676925152632" duration="673000" />
+      <workItem from="1676925879117" duration="1259000" />
+      <workItem from="1676992923635" duration="498000" />
     </task>
     <servers />
   </component>
@@ -265,7 +281,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonGitHub$3dz_26.coverage" NAME="3dz-26 Coverage Results" MODIFIED="1671563781106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_dz" />
-    <SUITE FILE_PATH="coverage/PythonGitHub$caesar.coverage" NAME="caesar Coverage Results" MODIFIED="1676577168586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/30_caesarCode" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$caesar.coverage" NAME="caesar Coverage Results" MODIFIED="1676745287979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/30_caesarCode" />
     <SUITE FILE_PATH="coverage/PythonGitHub$codeWars_1.coverage" NAME="codeWars_1 Coverage Results" MODIFIED="1673985454823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonGitHub$sum_5_3.coverage" NAME="sum-5-3 Coverage Results" MODIFIED="1673548204125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_seminar" />
     <SUITE FILE_PATH="coverage/PythonGitHub$2_function_v01.coverage" NAME="2 function_v01 Coverage Results" MODIFIED="1671966493833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
@@ -276,6 +292,7 @@
     <SUITE FILE_PATH="coverage/PythonGitHub$s3.coverage" NAME="s3 Coverage Results" MODIFIED="1671477423427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_seminar" />
     <SUITE FILE_PATH="coverage/PythonGitHub$test_def.coverage" NAME="test_def Coverage Results" MODIFIED="1671732875841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_seminar" />
     <SUITE FILE_PATH="coverage/PythonGitHub$sem_5_2.coverage" NAME="sem-5-2 Coverage Results" MODIFIED="1673547073211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_seminar" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$caesar_ver003.coverage" NAME="caesar_ver003 Coverage Results" MODIFIED="1676745307430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/30_caesarCode" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_18_v002.coverage" NAME="dz-18-v002 Coverage Results" MODIFIED="1671465364630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$sem4_1.coverage" NAME="sem4-1 Coverage Results" MODIFIED="1671731608747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_seminar" />
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_31.coverage" NAME="dz-31 Coverage Results" MODIFIED="1671900152290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4__dz" />
@@ -283,7 +300,7 @@
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_16.coverage" NAME="dz-16 Coverage Results" MODIFIED="1671478154066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$task2__1_.coverage" NAME="task2 (1) Coverage Results" MODIFIED="1676320446780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_seminar/6_sem_Stone17" />
     <SUITE FILE_PATH="coverage/PythonGitHub$model.coverage" NAME="model Coverage Results" MODIFIED="1674584627872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_seminar_DB_Student/school" />
-    <SUITE FILE_PATH="coverage/PythonGitHub$test.coverage" NAME="test Coverage Results" MODIFIED="1671468590632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$test.coverage" NAME="test Coverage Results" MODIFIED="1676740573764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/30_caesarCode" />
     <SUITE FILE_PATH="coverage/PythonGitHub$5_dictionary_001.coverage" NAME="5-dictionary-001 Coverage Results" MODIFIED="1671973790462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
     <SUITE FILE_PATH="coverage/PythonGitHub$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1675879077195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_seminar_Stone17" />
     <SUITE FILE_PATH="coverage/PythonGitHub$task1__1_.coverage" NAME="task1 (1) Coverage Results" MODIFIED="1676313826408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_seminar/6_sem_Stone17" />
@@ -309,7 +326,7 @@
     <SUITE FILE_PATH="coverage/PythonGitHub$dz_15.coverage" NAME="dz-15 Coverage Results" MODIFIED="1671295062411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$3dz_25.coverage" NAME="3dz-25 Coverage Results" MODIFIED="1671554122070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_dz" />
     <SUITE FILE_PATH="coverage/PythonGitHub$6_set_02.coverage" NAME="6-set-02 Coverage Results" MODIFIED="1671977735900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_lession" />
-    <SUITE FILE_PATH="coverage/PythonGitHub$stepikTest.coverage" NAME="stepikTest Coverage Results" MODIFIED="1676224552246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonGitHub$stepikTest.coverage" NAME="stepikTest Coverage Results" MODIFIED="1676926770001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonGitHub$sem4_2.coverage" NAME="sem4-2 Coverage Results" MODIFIED="1671734406664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4_seminar" />
   </component>
 </project>
