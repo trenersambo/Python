@@ -1,39 +1,3 @@
-import datetime
-import controller as controller
-
-commands = [
-    'Создать заметку',
-    'Показать все заметки',
-    'Удалить заметку',
-    'Изменить заметку',
-    'Выбрать заметки по дате',
-    'Выход из программы'
-]
-
-
-def main_menu() -> int:
-    print('\nГлавное меню:')
-    for i, line in enumerate(commands, 1):
-        print(f'\t{i}. {line}')
-    while True:
-        try:
-            choice = int(input('Выберите пункт меню: '))
-            if 0 < choice < 7:
-                return choice
-            else:
-                print('\nТакого пункта нет. Попытайтесь еще раз.')
-        except ValueError:
-            print('\nВведено неверное значение. Попробуйте еще раз. ')
-
-
-def show_notes(note_list):
-    print('\nЗаметки:')
-    if len(note_list) == 0:
-        print('\tПока нет ни одной заметки')
-    else:
-        for note in note_list:
-            print('\nID: ' + str(note['id']) + '\n' + 'Заголовок: ' + note['header'] + '\n' + 'Содержание: ' +
-                  note['content'] + '\n' + 'Дата создания/изменения: ' + note['data_of_create_or_change'])
 
 
 def create_new_note(new_id: int):
